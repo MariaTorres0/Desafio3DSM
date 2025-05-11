@@ -1,7 +1,5 @@
 
-#Desafio práctico 3 - DSM 
-
-##Integrantes 
+## Desafio práctico 3 - DSM 
 
 Jonathan Alexander Rodriguez Campos RC181256
 
