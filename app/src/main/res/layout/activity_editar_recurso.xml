@@ -13,17 +13,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Editar recurso"
+            android:text="Actualizar datos del recurso"
             android:textSize="24sp"
             android:textStyle="bold"
             android:textColor="@color/textColor"
-            android:layout_marginTop="100dp" />
+            android:layout_marginTop="142dp" />
 
         <EditText
             android:id="@+id/inputTituloEditar"
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:hint="Título"
+            android:textColorHint="@color/gray_medium"
+            android:textColor="@color/black"
             android:layout_marginTop="24dp"
             android:background="@drawable/rounded_input"
             android:padding="10dp" />
@@ -31,8 +33,10 @@
         <EditText
             android:id="@+id/inputDescripcionEditar"
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:hint="Descripción"
+            android:textColorHint="@color/gray_medium"
+            android:textColor="@color/black"
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_input"
             android:padding="10dp" />
@@ -42,6 +46,8 @@
             android:layout_width="300dp"
             android:layout_height="50dp"
             android:hint="Tipo"
+            android:textColorHint="@color/gray_medium"
+            android:textColor="@color/black"
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_input"
             android:padding="10dp" />
@@ -49,8 +55,10 @@
         <EditText
             android:id="@+id/inputEnlaceEditar"
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="70dp"
             android:hint="Enlace"
+            android:textColorHint="@color/gray_medium"
+            android:textColor="@color/black"
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_input"
             android:padding="10dp" />
@@ -58,8 +66,10 @@
         <EditText
             android:id="@+id/inputImagenEditar"
             android:layout_width="300dp"
-            android:layout_height="50dp"
+            android:layout_height="90dp"
             android:hint="URL de imagen"
+            android:textColorHint="@color/gray_medium"
+            android:textColor="@color/black"
             android:layout_marginTop="12dp"
             android:background="@drawable/rounded_input"
             android:padding="10dp" />
@@ -79,7 +89,7 @@
             android:layout_height="50dp"
             android:text="Eliminar"
             android:layout_marginTop="12dp"
-            android:backgroundTint="#E53935"
+            android:backgroundTint="@color/buttonliminar"
             android:textColor="@android:color/white" />
     </LinearLayout>
 </ScrollView>

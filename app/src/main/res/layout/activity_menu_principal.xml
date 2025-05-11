@@ -8,19 +8,30 @@
     android:layout_height="match_parent"
     android:background="@drawable/waves_background"
     tools:context=".MenuPrincipalActivity">
+
+    <ImageView
+        android:id="@+id/imgWelcome"
+        android:layout_width="206dp"
+        android:layout_height="158dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/libros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <TextView
         android:id="@+id/txtTituloMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Menú Principal"
-        android:textSize="24sp"
+        android:text="Menú principal"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:textColor="@color/textColor"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgWelcome"
         app:layout_constraintBottom_toTopOf="@+id/btnMostrarRecursos"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="80dp" />
+        android:layout_marginTop="16dp" />
 
     <Button
         android:id="@+id/btnMostrarRecursos"
@@ -34,14 +45,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
-        android:layout_marginTop="50dp" />
+        android:layout_marginTop="25dp" />
 
     <Button
         android:id="@+id/btnCerrarSesion"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="Cerrar sesión"
-        android:backgroundTint="#E53935"
+        android:backgroundTint="#9E9C9C"
         android:textColor="@android:color/white"
         app:layout_constraintTop_toBottomOf="@id/btnMostrarRecursos"
         app:layout_constraintStart_toStartOf="parent"
@@ -49,6 +60,5 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginTop="16dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

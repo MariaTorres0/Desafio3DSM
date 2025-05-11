@@ -82,7 +82,7 @@ class EditarRecursoActivity : AppCompatActivity() {
         ApiClient.apiService.putRecurso(recurso.id, recurso).enqueue(object : Callback<Recurso> {
             override fun onResponse(call: Call<Recurso>, response: Response<Recurso>) {
                 if (response.isSuccessful) {
-                    Toast.makeText(this@EditarRecursoActivity, "Actualizado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EditarRecursoActivity, "Recurso ctualizado", Toast.LENGTH_SHORT).show()
                     finish()
                 } else {
                     Toast.makeText(this@EditarRecursoActivity, "Error al actualizar", Toast.LENGTH_SHORT).show()
@@ -101,7 +101,7 @@ class EditarRecursoActivity : AppCompatActivity() {
         ApiClient.apiService.deleteRecurso(id).enqueue(object : Callback<Void> {
             override fun onResponse(call: Call<Void>, response: Response<Void>) {
                 if (response.isSuccessful) {
-                    Toast.makeText(this@EditarRecursoActivity, "Eliminado", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@EditarRecursoActivity, "Recurso eliminado", Toast.LENGTH_SHORT).show()
                     finish()
                 } else {
                     Toast.makeText(this@EditarRecursoActivity, "Error al eliminar", Toast.LENGTH_SHORT).show()

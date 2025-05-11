@@ -7,7 +7,7 @@
         android:id="@+id/titleListaRecursos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Lista de recursos"
+        android:text="Lista de recursos de aprendizaje"
         android:textColor="@color/textColor"
         android:textSize="24sp"
         android:textStyle="bold"

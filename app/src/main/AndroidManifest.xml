@@ -18,9 +18,6 @@
             android:name=".EditarRecursoActivity"
             android:exported="false" />
         <activity
-            android:name=".ActualizarActivity"
-            android:exported="false" />
-        <activity
             android:name=".RegistrarRecursosActivity"
             android:exported="false" />
         <activity

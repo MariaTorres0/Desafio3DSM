@@ -13,7 +13,7 @@
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="180dp"/>
 
     <EditText
         android:id="@+id/inputTitulo"
@@ -31,7 +31,7 @@
     <EditText
         android:id="@+id/inputDescripcion"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:hint="Descripción"
         android:background="@drawable/rounded_input"
         android:padding="10dp"
@@ -57,7 +57,7 @@
     <EditText
         android:id="@+id/inputEnlace"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:hint="Enlace"
         android:background="@drawable/rounded_input"
         android:padding="10dp"
@@ -70,7 +70,7 @@
     <EditText
         android:id="@+id/inputImagen"
         android:layout_width="300dp"
-        android:layout_height="50dp"
+        android:layout_height="90dp"
         android:hint="URL de imagen"
         android:background="@drawable/rounded_input"
         android:padding="10dp"
