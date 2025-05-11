@@ -8,5 +8,47 @@
     android:layout_height="match_parent"
     android:background="@drawable/waves_background"
     tools:context=".MenuPrincipalActivity">
+    <TextView
+        android:id="@+id/txtTituloMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menú Principal"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/btnMostrarRecursos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp" />
+
+    <Button
+        android:id="@+id/btnMostrarRecursos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Recursos"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/textColor"
+        app:layout_constraintTop_toBottomOf="@id/txtTituloMenu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="50dp" />
+
+    <Button
+        android:id="@+id/btnCerrarSesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Cerrar sesión"
+        android:backgroundTint="#E53935"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toBottomOf="@id/btnMostrarRecursos"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginTop="16dp" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

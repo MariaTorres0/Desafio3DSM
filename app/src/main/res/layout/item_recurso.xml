@@ -3,44 +3,71 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     android:background="@color/list"
     android:padding="12dp"
     android:elevation="4dp"
     android:layout_margin="8dp"
-    android:radius="8dp">
+    android:gravity="center_vertical">
 
-    <TextView
-        android:id="@+id/txtTitulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Titulo"
-        android:textSize="18sp"
-        android:textColor="@color/black"
-        android:textStyle="bold"/>
-
-    <TextView
-        android:id="@+id/txtDescripcion"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Descripcion"
-        android:textSize="12sp"
-        android:textColor="@color/black"/>
-
-    <TextView
-        android:id="@+id/txtTipo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Tipo"
-        android:textSize="12sp"
-        android:textColor="@color/black"/>
+    <ImageView
+        android:id="@+id/imgRecurso"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginEnd="12dp"
+        android:background="@android:color/darker_gray"
+        android:contentDescription="Imagen del recurso" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="end"
-        android:layout_marginTop="8dp">
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Titulo"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Id:"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/txtDescripcion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripcion"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="4dp" />
+
+        <TextView
+            android:id="@+id/txtTipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp" />
+        <TextView
+            android:id="@+id/txtEnlace"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enlace"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:layout_marginTop="2dp" />
     </LinearLayout>
 
 </LinearLayout>

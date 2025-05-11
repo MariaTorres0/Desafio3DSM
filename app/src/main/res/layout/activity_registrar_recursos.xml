@@ -26,7 +26,7 @@
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/titleRegistroReecurso"
-        android:layout_marginTop="30dp"/>
+        android:layout_marginTop="30dp" />
 
     <EditText
         android:id="@+id/inputDescripcion"
@@ -39,7 +39,7 @@
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/inputTitulo"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp" />
 
     <EditText
         android:id="@+id/inputTipo"
@@ -52,7 +52,33 @@
         android:textColor="@color/black"
         android:layout_centerHorizontal="true"
         android:layout_below="@id/inputDescripcion"
-        android:layout_marginTop="15dp"/>
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/inputEnlace"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enlace"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputTipo"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/inputImagen"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="URL de imagen"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputEnlace"
+        android:layout_marginTop="15dp" />
 
     <Button
         android:id="@+id/btnGuardarRecurso"
@@ -62,7 +88,7 @@
         android:backgroundTint="@color/buttonColor"
         android:textColor="@color/textColor"
         android:layout_centerHorizontal="true"
-        android:layout_below="@id/inputTipo"
-        android:layout_marginTop="30dp"/>
+        android:layout_below="@id/inputImagen"
+        android:layout_marginTop="30dp" />
 
 </RelativeLayout>
