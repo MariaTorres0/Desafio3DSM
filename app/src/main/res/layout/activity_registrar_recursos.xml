@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves_background">
+
+    <TextView
+        android:id="@+id/titleRegistroReecurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registrar datos del recurso"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"/>
+
+    <EditText
+        android:id="@+id/inputTitulo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Título"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/titleRegistroReecurso"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/inputDescripcion"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Descripción"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputTitulo"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/inputTipo"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Tipo"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputDescripcion"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/inputEnlace"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Enlace"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputTipo"
+        android:layout_marginTop="15dp" />
+
+    <EditText
+        android:id="@+id/inputImagen"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="URL de imagen"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColorHint="@color/gray_medium"
+        android:textColor="@color/black"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputEnlace"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:id="@+id/btnGuardarRecurso"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Guardar datos"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/textColor"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/inputImagen"
+        android:layout_marginTop="30dp" />
+
+</RelativeLayout>

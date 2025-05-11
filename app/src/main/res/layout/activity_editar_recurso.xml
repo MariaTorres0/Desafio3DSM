@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves_background"
+    android:padding="20dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar recurso"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/textColor"
+            android:layout_marginTop="100dp" />
+
+        <EditText
+            android:id="@+id/inputTituloEditar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Título"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/inputDescripcionEditar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Descripción"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/inputTipoEditar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Tipo"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/inputEnlaceEditar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Enlace"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/inputImagenEditar"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="URL de imagen"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/rounded_input"
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Actualizar"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/buttonColor"
+            android:textColor="@color/textColor" />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Eliminar"
+            android:layout_marginTop="12dp"
+            android:backgroundTint="#E53935"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>

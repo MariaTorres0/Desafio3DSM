@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/waves_background_list">
+
+    <TextView
+        android:id="@+id/titleListaRecursos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lista de recursos"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="195dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/titleListaRecursos"
+        android:layout_marginTop="10dp"
+        android:background="@color/textColor" />
+
+    <LinearLayout
+        android:id="@+id/busquedaLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleListaRecursos"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_marginTop="12dp">
+    <EditText
+        android:id="@+id/inputBuscarId"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="Buscar ID"
+        android:inputType="number"
+        android:background="@drawable/rounded_input"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray_medium" />
+
+    <Button
+        android:id="@+id/btnBuscarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Buscar"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="@color/buttonColor"
+        android:textColor="@color/textColor" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecursos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_below="@id/busquedaLayout"
+        android:layout_above="@id/btnAgregarRecurso"
+        android:layout_marginTop="10dp"
+        android:padding="16dp"
+        android:contentDescription="Lista de recursos"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btnAgregarRecurso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:tint="@color/textColor"
+        android:backgroundTint="@color/buttonColor"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        android:contentDescription="Agregar recurso" />
+</RelativeLayout>

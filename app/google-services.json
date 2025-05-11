@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "768736960194",
+    "project_id": "desafio3dsm-c14bf",
+    "storage_bucket": "desafio3dsm-c14bf.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768736960194:android:d3af978b0151dcd158255b",
+        "android_client_info": {
+          "package_name": "com.example.desafio3dsm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUKdl8VkFR-0UFASqa0jrfjiuPJ3s2HHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:768736960194:android:2b1419498b2a73d358255b",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAUKdl8VkFR-0UFASqa0jrfjiuPJ3s2HHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
